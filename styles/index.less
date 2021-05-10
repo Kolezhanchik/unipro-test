@@ -1,0 +1,46 @@
+@blocks: "./blocks";
+@blue-base: #0078DC;
+@grey-base: #C4C4C4;
+@yellow-base: #FDFF8C;
+@max-width-desk: 960px;
+@max-width-tablet: 95%;
+@max-width-mob-ios: 100%;
+@max-width-mob-android: 100%;
+@gap: 15px;
+@width-base-desk-one: calc((@max-width-desk - 60px)/5);
+@width-base-desk-four: calc(((@max-width-desk - 60px)/5) * 4 + 45px);
+@width-base-desk-two: calc(((@max-width-desk - 60px)/5) * 2 + 15px);
+@width-base-tablet-one: calc((@max-width-tablet - 60px)/5);
+@width-base-tablet-four: calc(((@max-width-tablet - 60px)/5) * 4 + 45px);
+@desktop: ~"only screen and (min-width: @max-width-desk) and (max-width: 1199px)";
+@tablet: ~"only screen and (min-width: 768px) and (max-width: 959px)";
+@mob-ios: ~"only screen and (min-width: 414px) and (max-width: 767px)";
+@mob-android: ~"only screen and (max-width: 414px)";
+.font-base{
+    color: #000000;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.norm {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.page{
+    .norm;
+}
+.wrap{
+    max-width: @max-width-desk;
+    margin:0 auto;  
+}
+
+@import "@{blocks}/header.less";
+@import "@{blocks}/main.less";
+@import "@{blocks}/promo.less";
+@import "@{blocks}/info.less";
+@import "@{blocks}/footer.less";
+
+
