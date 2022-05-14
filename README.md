@@ -1,14 +1,16 @@
-### Тестовое задание компании СКАИД.
+### Test task of SCAID company.
 
-1. Адаптивная верстка - https://www.figma.com/file/97HMqbUgACFMZ5NNsCg1pp/unipro1. Разбить макет на логические блоки. bootstrap - не использовать
+1. Adaptive layout - https://www.figma.com/file/97HMqbUgACFMZ5NNsCg1pp/unipro1. Divide the layout into logical blocks. bootstrap - do not use
 
-2. Используя методалогию БЭМ сверстать страницу. Верстка должна быть адаптивной. 
-3. Соблюсти при верстке требования к СЕО.
+Using the BEM methodology to create a page. The layout must be adaptive. 
+3. Comply with the requirements for SEO.
 
-4. https://developers.google.com/speed/pagespeed/insights/?hl=RU должен давать не менее 80 единиц для мобильной и десктопной версий
+4. https://developers.google.com/speed/pagespeed/insights/?hl=RU must give not less than 80 units for mobile and desktop versions
 
-Сборка страницы с использованием less или sass - приветствуется (less - предпочтительнее)
+Build the page using less or sass - welcome (less - preferred)
 
-### результат 
-на gh-pages https://kolenhen.github.io/unipro-test/index.html
+Translated with www.DeepL.com/Translator (free version)
+
+### result 
+на gh-pages https://Kolezhanchik.github.io/unipro-test/index.html
 https://developers.google.com/speed/pagespeed/insights/?hl=RU   - 98
